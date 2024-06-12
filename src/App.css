@@ -1,0 +1,36 @@
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 30%;
+  margin: 10px;
+}
+
+.news {
+  padding: 20px;
+}
+
+.news-article {
+  margin-bottom: 20px;
+}
+
+.news-article h2 {
+  margin: 0;
+}
+
+.news-article p {
+  margin: 5px 0 0 0;
+}
